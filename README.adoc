@@ -1,0 +1,25 @@
+== rpiups
+
+=== Rust AVR executable template
+
+A template for Rust based AVR executables.
+
+Provides:
+
+  * A Rust target specification JSON for ATmega8P - link:./avr-atmega8p.json[avr-atmega8p.json]
+
+  * A GitHub-action based CI test pipeline
+
+==== Build instructions
+
+Install Rust nightly - see link:https://snowgoons.ro/posts/2021-10-09-the-day-rust-on-avr-stood-still/[the-day-rust-on-avr-stood-still]
+
+Then run:
+
+[source, bash]
+----
+cargo build --target avr-atmega328p.json -Z build-std=core --release
+----
+
+The final ELF executable file will then be available at __target/avr-atmega8/release/rpiups.elf__.
+
