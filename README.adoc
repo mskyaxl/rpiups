@@ -1,5 +1,9 @@
 == rpiups
 
+[caption="Test suite: ",link=https://github.com/mskyaxl/rpiups/actions/workflows/docker-image.yml]
+image::https://github.com/mskyaxl/rpiups/actions/workflows/docker-image.yml/badge.svg[Test suite]
+
+
 === Rust AVR executable template
 
 A template for Rust based AVR executables.
