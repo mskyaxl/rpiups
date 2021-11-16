@@ -6,7 +6,7 @@ A template for Rust based AVR executables.
 
 Provides:
 
-  * A Rust target specification JSON for ATmega8P - link:./avr-atmega8p.json[avr-atmega8p.json]
+  * A Rust target specification JSON for ATmega8P - link:./avr-atmega8.json[avr-atmega8.json]
 
   * A GitHub-action based CI test pipeline
 
